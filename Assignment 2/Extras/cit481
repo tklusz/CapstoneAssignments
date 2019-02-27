@@ -1,0 +1,153 @@
+Script started on 2019-02-27 15:18:59-0800
+# touch /var/www/htm; l/index.html
+# nano /var/www/html/index.html
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 [14b/var/www/html/index.html [23b [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d[36m<DOCTYPE html>[4;9H<html>[5;17H<head>[6;25H<title>[39m(B[m Site 1 [36m</title>[7;17H</head>[8;17H<body>[9;25H<ul>[10;33H<li>[39m(B[m Tyler Kluszczynski [36m</li>[11;33H<li>[39m(B[m tyler.kluszczynski.801@my.csun.edu [36m</li>[12;33H<li>[39m(B[m Computer Information Technology [36m</li>[13;25H</ul>[14;17H</body>[15;9H</html>
+[22d[39m(B[m[K[15;16H[?12l[?25h[?25l[23;14H [6b(B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append [9b(B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel [10b(B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend [8b(B[0;7m^T(B[m To Files[K
+[22d(B[0;7mFile Name to Write: /var/www/html/index.html [34b [22;1H(B[m[22;45H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m [7b(B[m[22;32H(B[0;7m[ Wrote 13 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[15;16H[?12l[?25h[?25l
+[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l># curl localhost
+<DOCTYPE html> 
+	<html> 
+		<head> 
+			<title> Site 1 </title> 
+		</head> 
+		<body> 
+			<ul> 
+				<li> Tyler Kluszczynski </li> 
+				<li> tyler.kluszczynski.801@my.csun.edu </li> 
+				<li> Computer Information Technology </li> 
+			</ul> 
+		</body> 
+	</html>
+# mkdir /var/www/site2
+# touch /var/www/site2/index/h  .html
+# nano /var/www/site2/index.html
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 [13b/var/www/site2/index.html [23b [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d[36m<DOCTYPE html>[4;9H<html>[5;17H<head>[6;25H<title>[39m(B[m Site 2 [36m</title>[7;17H</head>[8;17H<body>[9;25H<ul>[10;33H<li>[39m(B[m IP routing is the routing of IP packets th$[11;33H[36m<li>[39m(B[m Name based routing is a theoretical concep$[12;33H[36m<li>[39m(B[m Apache directives are configuration settin$[13;25H[36m</ul>[14;17H</body>[15;9H</html>
+[22d[39m(B[m[K[15;16H[?12l[?25h[?25l[23;14H [6b(B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append [9b(B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel [10b(B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend [8b(B[0;7m^T(B[m To Files[K
+[22d(B[0;7mFile Name to Write: /var/www/site2/index.html [33b [22;1H(B[m[22;46H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m [7b(B[m[22;32H(B[0;7m[ Wrote 13 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[15;16H[?12l[?25h[?25l
+[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l># m rm etc/apache2/sites-available/site1.conf
+rm: cannot remove 'etc/apache2/sites-available/site1.conf': No such file or directory
+# touch etc/e apache2/sites-available.s  /site1.conf
+# rm etc/apache2/sites-available. /site2.conf
+# rm  touch etc/apache2/sites-available.site2      /site2.conf
+# nano etc/apache2/sites-available. /site1.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 [7betc/apache2/sites-available/site1.conf [16b [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d<VirtualHost *:80>[4;9HDocumentRoot /var/www/html[5;9HErrorLog ${APACHE_LOG_DIR}/error.log[6;9HCustomLog ${APACHE_LOG_DIR}/acess.log combined
+[7d</VirtualHost>
+[22d[K[7;15H[?12l[?25h[?25l[23;14H [6b(B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append [9b(B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel [10b(B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend [8b(B[0;7m^T(B[m To Files[K
+[22d(B[0;7mFile Name to Write: etc/apache2/sites-available/site1.conf [20b [22;1H(B[m[22;59H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m [7b(B[m[22;32H(B[0;7m[ Wrote 5 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[7;15H[?12l[?25h[?25l
+[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l># ^[[A    nano etc/apache2/sites-available/site2.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 [7betc/apache2/sites-available/site2.conf [16b [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d<VirtualHost *:80>[4;9HServerName site2.assignment2.local[5;9HDocumentRoot /var/www/site2/[6;9HErrorLog ${APACHE_LOG_DIR}/error.log[7;9HCustomLog ${APACHE_LOG_DIR}/acess.log combined
+[8d</VirtualHost>
+[22d[K[8;15H[?12l[?25h[?25l[23;14H [6b(B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append [9b(B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel [10b(B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend [8b(B[0;7m^T(B[m To Files[K
+[22d(B[0;7mFile Name to Write: etc/apache2/sites-available/site2.conf [20b [22;1H(B[m[22;59H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m [7b(B[m[22;32H(B[0;7m[ Wrote 6 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[8;15H[?12l[?25h[?25l
+[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l># echo "127.0.0.1 site2.assignm,en   ent2.local" >> /etc/hosts
+# a2dn  ensite site2 1.conf
+Enabling site site1.
+To activate the new configuration, you need to run:
+  service apache2 reload
+# a2ensite site2.conf
+Site site2 already enabled
+# service apache2 reload
+ * Reloading Apache httpd web server apache2       [80G  * 
+# curl site2.assignment2.local
+<DOCTYPE html> 
+	<html> 
+		<head> 
+			<title> Site 2 </title> 
+		</head> 
+		<body> 
+			<ul> 
+				<li> IP routing is the routing of IP packets through networks. This involves routing packets through routers/switches on various networks to the packet's destination network. Each router/switch will determine how to route the packet based on its routing table and the packet's destination address which is located in the header of each packet. </li> 
+				<li> Name based routing is a theoretical concept of routing based on domain names, similar to IP routing but with domain names. In reality, the DNS will resolve each domain name to an IP address before sending any other IP network packets. </li> 
+				<li> Apache directives are configuration settings for the apache server that are set in the httpd configuration file. Based on the configuration, different aspects of the server will change such as the Apache listening port. </li> 
+			</ul> 
+		</body> 
+	</html>
+# nano /etc/apah  ache2/a sites-available/000-default.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 31 lines ](B[m[H(B[0;7m  GNU nano 2.9.3    /etc/apache2/sites-available/000-default.conf [13b [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m<VirtualHost *:80>[4;8H[36m[1K # The ServerName directive sets the request scheme, hostname and port t[39m(B[m$[5;8H[36m[1K # the server uses to identify itself. This is used when creating[6;8H[1K # redirection URLs. In the context of virtual hosts, the ServerName[7;8H[1K # specifies what hostname must appear in the request's Host: header to[8;8H[1K # match this virtual host. For the default virtual host (this file) this[9;8H[1K # value is not decisive as it is used as a last resort host regardless.[10;8H[1K # However, you must set it for any further virtual host explicitly.[11;8H[1K #ServerName www.example.com[13;9H[39m(B[mServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/html[16;8H[36m[1K # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;8H[1K # error, crit, alert, emerg.[18;8H[1K # It is also possible to configure the loglevel for particular[19;8H[1K # modules, e.g.[20;8H[1K #LogLevel info ssl:warn
+[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[A[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[12d [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l7[12;21r8
+M[1;24r[13;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l
+[22d[K[13;8H[?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l2[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l/[?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l/[?12l[?25h[?25lw[?12l[?25h[?25lw[?12l[?25h[?25lw[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l2[?12l[?25h[?25l/[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l/[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25lm[?12l[?25h[?25ll[?12l[?25h[?25l"[?12l[?25h[?25l[14;40H[?12l[?25h[?25l[15;35H[?12l[?25h[?25l
+[16d[?12l[?25h[?25l[17;51H[?12l[?25h[?25l[18;37H[?12l[?25h[?25l[19;51H[?12l[?25h[?25l[20;24H[?12l[?25h[?25l[21;32H[?12l[?25h[?25l7[2;22r8
+[22d[10S[1;24r[13;9HErrorLog ${APACHE_LOG_DIR}/error.log[14;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[16;8H[36m[1K # For most configuration files from conf-available/, which are[17;8H[1K # enabled or disabled at a global level, it is possible to[18;8H[1K # include a line for only one particular virtual host. For example the[19;8H[1K # following line enables the CGI configuration for this host only[20;8H[1K # after it has been globally disabled with "a2disconf".[21;8H[1K #Include conf-available/serve-cgi-bin.conf
+[12d[39m(B[m[?12l[?25h[?25l[13;45H[?12l[?25h[?25l[14;51H[?12l[?25h[?25l
+[15d[?12l[?25h[?25l[16;51H[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8
+[22d[10S[1;24r[12;1H</VirtualHost>
+[14d[36m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[12;15H[39m(B[m[?12l[?25h[?25l
+[13d[?12l[?25h[?25l[14;45H[?12l[?25h[?25l
+[15d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[23;14H [6b(B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append [9b(B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel [10b(B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend [8b(B[0;7m^T(B[m To Files[K
+[22d(B[0;7mFile Name to Write: /etc/apache2/sites-available/000-default.conf [13b [22;1H(B[m[22;66H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m [7b(B[m[22;32H(B[0;7m[ Wrote 33 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[15d[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l># a2dissite 000-default.conf
+Site 000-default disabled.
+To activate the new configuration, you need to run:
+  service apache2 reload
+# a2ensite 000-default.conf
+Enabling site 000-default.
+To activate the new configuration, you need to run:
+  service apache2 reload
+# service apache2 reload
+ * Reloading Apache httpd web server apache2       [80G  * 
+# curl localhost/ 
+<DOCTYPE html> 
+	<html> 
+		<head> 
+			<title> Site 1 </title> 
+		</head> 
+		<body> 
+			<ul> 
+				<li> Tyler Kluszczynski </li> 
+				<li> tyler.kluszczynski.801@my.csun.edu </li> 
+				<li> Computer Information Technology </li> 
+			</ul> 
+		</body> 
+	</html>
+# curl localhost/site2
+<DOCTYPE html> 
+	<html> 
+		<head> 
+			<title> Site 2 </title> 
+		</head> 
+		<body> 
+			<ul> 
+				<li> IP routing is the routing of IP packets through networks. This involves routing packets through routers/switches on various networks to the packet's destination network. Each router/switch will determine how to route the packet based on its routing table and the packet's destination address which is located in the header of each packet. </li> 
+				<li> Name based routing is a theoretical concept of routing based on domain names, similar to IP routing but with domain names. In reality, the DNS will resolve each domain name to an IP address before sending any other IP network packets. </li> 
+				<li> Apache directives are configuration settings for the apache server that are set in the httpd configuration file. Based on the configuration, different aspects of the server will change such as the Apache listening port. </li> 
+			</ul> 
+		</body> 
+	</html>
+# exit
+
+Script done on 2019-02-27 15:24:09-0800

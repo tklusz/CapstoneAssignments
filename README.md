@@ -1,3 +1,4 @@
 # CapstoneAssignments
 Assignments from my CIT capstone class.
-* Project 1 - LAMP stack in Docker.
+* Assignment 1 - LAMP stack in Docker.
+* Assignment 2 - Virtual Hosts in Apache.

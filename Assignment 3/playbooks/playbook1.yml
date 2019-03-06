@@ -1,0 +1,36 @@
+---
+
+- name: Create users, group, add to sudoers file.
+  hosts: 127.0.0.1
+  connection: local
+  become: true
+  tasks: 
+
+  - name: Create backup of sudoers file.
+    command: cp /etc/sudoers /etc/sudoers.bak
+
+  - name: Create new group for admins.
+    group: 
+      name: admins
+      state: present 
+  
+  - name: Create first admin user.
+    user:
+      name: admin1
+      password: "{{ 'admin1-password' | password_hash('sha512') }}"
+      groups:
+        - admins
+      state: present
+
+  - name: Create second admin user.
+    user:
+      name: admin2
+      password: "{{ 'admin2-password' | password_hash('sha512') }}"
+      groups:
+        - admins
+      state: present
+   
+  - name: Add sudo permissions to admin group.
+    shell: echo '%admins ALL=(ALL) ALL' | sudo EDITOR='tee -a' visudo
+     
+

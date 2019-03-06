@@ -1,0 +1,37 @@
+---
+
+- name: Setting up LAMP stack.
+  hosts: 127.0.0.1
+  connection: local
+  become: true
+  tasks:
+
+  - name: Install Apache2.
+    apt: 
+      name: apache2
+      state: present
+  
+  - name: Install mysql-client.
+    apt:
+      name: mysql-client
+      state: present
+
+  - name: Install PHP7.
+    command: apt-get install -y php libapache2-mod-php php-mysql
+  
+  - name: Install composer.
+    apt:
+      name: composer
+      state: present
+
+  - name: Create info.php
+    shell: touch /var/www/html/info.php && echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+
+  - name: add permissions to info.php file.
+    command: chmod 777 /var/www/html/info.php
+
+  - name: Start Apache2 service.  
+    service: 
+      name: apache2
+      state: started
+
